@@ -1,0 +1,6 @@
+Model,Training Time (s),Accuracy,Precision,Recall,F1 Score,ROC-AUC,Advantages,Limitations
+Logistic Regression,0.242,0.8028,0.6715,0.5,0.5732,0.8405,"Fast, interpretable, good probabilities, strong baseline",Assumes linear relationship with log-odds
+Decision Tree,0.246,0.7907,0.6327,0.5,0.5586,0.8281,"Easy to explain, handles non-linear rules, no scaling needed","Overfits easily, unstable"
+KNN,0.133,0.7772,0.5925,0.5081,0.547,0.8182,"Simple, no training phase, adapts to local patterns","Slow predictions, sensitive to scaling/irrelevant features"
+SVM (RBF),7.843,0.7943,0.6653,0.4489,0.5361,0.7876,"Handles non-linear boundaries, good in high dimensions","Slow on large data, hard to interpret"
+Random Forest,4.367,0.7808,0.6168,0.4543,0.5232,0.8189,"Robust to noise, captures interactions, feature importance","Slower, less interpretable"
